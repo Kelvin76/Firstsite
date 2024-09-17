@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <title>The Car Chronicles</title>
+    <style>
+      body, html {
+        height: 100%;
+      }
+      
+      .parallax {
+        /* The image used */
+        background-image: url('https://www.hdcarwallpapers.com/walls/ferrari_supercar_4k-HD.jpg');
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      
+      </style>
+</head>
+
+<body>
+    <header>
+        <h1>The Car Chronicles</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="parallax"><h1 id="header">Welcome to the world of cars</h1></div>
+    <div class="main-content">
+        <h2 style="text-align: center;">Start your Engine</h2>
+        
+        
+        
+    </div>
+    <div class="container">
+        <img src="https://i.redd.it/4k-wallpaper-sports-cars-on-track-v0-tuocu8x929sa1.jpg?width=3840&format=pjpg&auto=webp&s=b3ad66edc1c93c19172ef3c7fbe08261708b35e6" alt="Car Showcase" width="85%">
+            <div class="centered"><h2>About Car</h2> 
+              <p>Cars have transformed how we travel, providing convenience and speed. From early models like the Model T to today’s electric vehicles, cars have continually evolved. They come in various types, such as sedans, SUVs, and sports cars, each catering to different needs. Modern cars feature advanced safety, entertainment systems, and improved fuel efficiency. The shift toward electric vehicles is driving the industry towards sustainability, reducing emissions and fossil fuel reliance. Beyond transportation, cars represent freedom, status, and technological progress.</p></div>
+            </div>
+    <br><br>
+
+    <h1 style="color: bisque; text-align: center;">CARS SHOWCASE</h1>
+        
+    <div class="grid-row">
+        <div class="col">
+          <img src="https://i.pinimg.com/736x/e6/fc/91/e6fc9103d213e3c419b3800989b95fff.jpg" alt="Bugatti Chiron" class="img-thumbnail" style="width:100%" onclick="showImage(this);">
+        </div>
+        <div class="col">
+          <img src="https://i.pinimg.com/736x/df/1f/e8/df1fe8f878cc5783a82e57e93500c9aa.jpg" alt="Bugatti Chiron" class="img-thumbnail" style="width:100%" onclick="showImage(this);">
+        </div>
+        <div class="col">
+          <img src="https://i.pinimg.com/736x/54/c2/97/54c297562c213fee90a16fa3a2d93818.jpg" alt="Bugatti Chiron" class="img-thumbnail" style="width:100%" onclick="showImage(this);">
+        </div>
+        <div class="col">
+          <img src="https://i.pinimg.com/564x/24/70/76/2470768ac21753a4757a50422cc42443.jpg" alt="Bugatti Chiron" class="img-thumbnail" style="width:100%" onclick="showImage(this);">
+        </div>
+      </div>
+      
+      <div class="img-container">
+        <span onclick="this.parentElement.style.display='none'" class="close-btn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="img-caption"></div>
+      </div>
+      
+      <script>
+      function showImage(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgCaption = document.getElementById("img-caption");
+        expandImg.src = imgs.src;
+        imgCaption.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+      }
+      </script>
+      
+      <section>
+        <div class="row">
+            <div class="subone">
+             <figure>
+                <img src="https://i.pinimg.com/736x/e6/fc/91/e6fc9103d213e3c419b3800989b95fff.jpg" width="95%" height="95%" alt="culture" width="380" height="300">
+             </figure>
+             <br><br>
+             <h2> M4 Features </h2>
+             <ul><li>3.0-liter BMW M TwinPower Turbo inline-6 engine</li>
+            <li>0-60 mph in 3.8 to 4.1 seconds</li>
+          <li>Available M xDrive All-Wheel Drive</li>
+        <li>6-speed manual transmission option</li>
+      <li>8-speed M Steptronic automatic transmission with paddle shifting</li>
+    <li>Active Driving Assistant (lane departure warning, blind spot detection)</li>
+  <li>arking Assistant Plus with rearview camera and parking sensors</li>
+<li>M Drive Professional with performance data and Drift Analyzer</li>
+<li>M Servotronic Steering for precise control</li>
+<li>Wireless Apple CarPlay and Android Auto</li>
+</ul>
+             
+            </div>
+    <!--subsection two-->
+            <div class="subone">
+                <figure >
+                    <img src="https://i.pinimg.com/736x/df/1f/e8/df1fe8f878cc5783a82e57e93500c9aa.jpg" width="95%" height="95%" alt="culture" width="380" height="300">
+                </figure>
+                <br><br>
+                <h2> M3 Feature</h2>
+                <ol type="a">
+                  <li>High-performance sports sedan with a 3.0-liter turbocharged engine.</li>
+                  <li>Offers up to 503 horsepower</li>
+                  <li>Aggressive styling with a luxurious interior featuring M-specific elements.</li>
+                  <li>Equipped with the iDrive 8.0 system with wireless smartphone integration.</li>
+                  <li>Choice between a 6-speed manual and an 8-speed automatic transmission.</li>
+                  <li>Features adaptive suspension and M xDrive all-wheel drive.</li>
+                  <li>Includes active driving assistance and parking aids for safety.</li>
+                  <li>Customizable through the BMW Individual Program.</li>
+                  <li>M Performance Parts available for enhanced performance and personalization.</li>
+                </ol>
+                
+                
+            </div>
+    <!--subsection three-->
+            <div class="subone">
+             <figure>
+                 <img src="https://i.pinimg.com/736x/54/c2/97/54c297562c213fee90a16fa3a2d93818.jpg" width="95%" height="95%" alt="culture" width="380" height="300">
+             </figure>
+             <br><br>
+             <h2>M5 Feature</h2>
+             <ol type="i">
+              <li>High-performance luxury sedan with a 4.4-liter V8 engine</li>
+              <li>Produces up to 617 horsepower</li>
+              <li>Rapid acceleration with advanced M xDrive all-wheel drive</li>
+              <li>8-speed automatic transmission for smooth gear shifts</li>
+              <li>Elegant design with aggressive styling</li>
+              <li>Luxurious interior featuring M-specific seats and premium materials</li>
+              <li>Advanced technology, including iDrive 8.0 system and wireless smartphone integration</li>
+              <li>Optional high-end sound system for enhanced audio experience</li>
+              <li>Adaptive suspension, customizable driving modes, and extensive safety features for a thrilling yet comfortable ride</li>
+             </ol>
+             
+
+         </div>
+      
+        </div>
+    </section>
+ 
+  
+        
+    <table style="border: 2px solid rgb(107, 89, 67); border-collapse: collapse; margin: 0 auto;">
+      <tr style="color: whitesmoke;">
+          <th style="border: 2px solid rgb(107, 89, 67);">Cars</th>
+          <th style="border: 2px solid rgb(107, 89, 67);">Pricing</th>
+          <th style="border: 2px solid rgb(107, 89, 67);">Release Date</th>
+          <th style="border: 2px solid rgb(107, 89, 67);">Performance</th>
+      </tr>
+      <tr style="color: whitesmoke;">
+          <td style="border: 2px solid rgb(107, 89, 67);">BMW M4</td>
+          <td style="border: 2px solid rgb(107, 89, 67);">Starting Price: $65,700</td>
+          <td style="border: 2px solid rgb(107, 89, 67);">Released in November 2021</td>
+          <td style="border: 2px solid rgb(107, 89, 67);">The BMW M4 shares the M3’s 3.0-liter inline-6 engine, generating up to 503 horsepower and 479 lb-ft of torque in the Competition model. It reaches 0-60 mph in 3.8 seconds, with an electronically limited top speed of 155 mph. The M4 comes with rear-wheel drive or optional xDrive all-wheel drive, paired with a 6-speed manual or 8-speed automatic transmission. Its adaptive M suspension and advanced aerodynamics optimize handling and stability. The M4 delivers a thrilling and refined driving experience.</td>
+      </tr>
+      <tr style="color: whitesmoke;">
+        <td style="border: 2px solid rgb(107, 89, 67);">BMW M3</td>
+        <td style="border: 2px solid rgb(107, 89, 67);">Starting Price: $43,800</td>
+        <td style="border: 2px solid rgb(107, 89, 67);">Released in July 2019</td>
+        <td style="border: 2px solid rgb(107, 89, 67);">The BMW M3 is powered by a 3.0-liter inline-6 engine with twin-turbocharging, producing 473 horsepower and 406 lb-ft of torque. It accelerates from 0-60 mph in 4.1 seconds, with a top speed of 155 mph, electronically limited. The car features rear-wheel drive and a 6-speed manual transmission, offering a pure driving experience. Its adaptive M suspension enhances dynamic handling. The M3 combines precision engineering with an engaging performance.</td>
+    </tr>
+    <tr style="color: whitesmoke;">
+      <td style="border: 2px solid rgb(107, 89, 67);">BMW M5</td>
+      <td style="border: 2px solid rgb(107, 89, 67);">Starting Price: $103,500</td>
+      <td style="border: 2px solid rgb(107, 89, 67);">Released in March 2021</td>
+      <td style="border: 2px solid rgb(107, 89, 67);">The BMW M5 features a 4.4-liter V8 engine with twin-turbocharging, producing up to 617 horsepower and 553 lb-ft of torque. It accelerates from 0-60 mph in 3.2 seconds, with a top speed of 190 mph, electronically limited. The car includes BMW’s xDrive all-wheel drive system and an 8-speed automatic transmission. Its adaptive M suspension and customizable driving modes provide both high performance and comfort. The M5 is a blend of luxury and exceptional power.</td>
+  </tr>
+    
+  </table>
+<br>  
+      
+
+    <div class="testimonials container">
+        <h2>Testimonials</h2>
+        <p>John D. – Automotive Enthusiast
+          "The BMW M3 is a masterpiece of engineering. Its precise handling and powerful inline-6 engine make every drive exhilarating. Whether on a track or a winding road, the M3 delivers an unmatched driving experience. The adaptive suspension ensures that it’s just as comfortable on daily commutes as it is thrilling on weekends. I couldn’t ask for a better sports sedan."</p>
+        <p>Emily R. – Car Reviewer
+          "The BMW M4 takes performance to a new level with its impressive acceleration and agility. The Competition model's 503 horsepower and optional all-wheel drive make it a formidable contender on the road. The interior is equally remarkable, combining luxury with sporty touches. The M4 is the perfect blend of everyday usability and high-performance thrills."</p>
+        <p>David S. – Luxury Car Owner
+          "The BMW M5 is the epitome of high-performance luxury. With its 617 horsepower V8 engine, it offers a breathtaking driving experience, whether you’re accelerating on a highway or navigating through city streets. The advanced technology and adaptive suspension provide both comfort and excitement. The M5 truly delivers a thrilling ride without compromising on luxury."</p>
+    </div>
+
+    <div class="contact container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Enter your name">
+                <input type="email" name="email" placeholder="Enter your email">
+                <input type="tel" name="phone" placeholder="Enter your phone number">
+                <textarea name="message" placeholder="Enter your message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Address: 40 Bulbourne Rd, Etobicoke, ON M9V 3N4</p>
+            <p>Phone: +4167319178</p>
+            <p>Email: kelvinbekoewurapa19@gmail.com</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Car Showcase. All rights reserved. <a href="#privacy">Privacy Policy</a></p>
+        <a href="https://www.facebook.com/BMW/">Facebook</a>
+        <a href="https://x.com/BMW?mx=2">Twitter</a>
+        <a href="https://www.instagram.com/bmw/">Instagram</a>
+    </footer>
+</body>
+
+</html>
+
